@@ -1,6 +1,7 @@
 *{
     -webkit-box-sizing:border-box;
     box-sizing:border-box;
+    overflow:hidden;
 }
 #header{
     padding: 40px 0;
@@ -32,4 +33,133 @@
     padding:10px 15px;
     display:inline-block;
     
+}
+
+#content-area .insider{
+    
+}
+
+#content-area .model{
+    display:inline-block;
+    float:left;
+    width:50%;
+    text-align:center;
+}
+
+#content-area .model img{
+    max-width:500px;
+}
+
+#content-area .info{
+    float:left;
+    display:inline-block;
+    width:50%;
+}
+
+#content-area .info h1{
+    font-size:44px;
+    font-weight: 700;
+    color: #000;
+    line-height: 1.3;
+    margin: 24px 0;
+}
+
+#content-area .info p{
+    font-weight: 100;
+    line-height: 1.5;
+    margin-bottom: 30px;
+}
+
+#content-area .info h5{
+    background:red;
+    text-transform: uppercase;
+    font-size: 12px;
+    display:inline-block;
+    font-weight:700;
+    color:#fff;
+    padding: 5px 8px;
+}
+
+.size{
+    margin-bottom:30px;
+}
+.size .title{
+    font-size: 14px;
+    font-weight: 700;
+    margin-bottom:15px;
+}
+
+.size .sizes li{
+    border-radius: 50%;
+    display:inline-block;
+    border: 1px solid #000;
+    font-size:12px;
+    display:-webkit-inline-box;
+    display:-ms-inline-flexbox;
+    display:inline-flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    margin-right: 10px;
+}
+
+.size .sizes li.circle{
+    height: 30px;
+    width:30px;
+     padding: 10px 0;
+}
+
+.size .sizes li.semi-circle{
+ height: 30px;
+ padding: 10px 20px;
+ border-radius: 30px;
+}
+#content-area .action-btns .red-hollow-btn{
+   border: 2px solid red; 
+   display:inline-block;
+   padding: 20px;
+   color:red;
+   display:-webkit-inline-box;
+   display:-ms-inline-flexbox;
+   display:inline-flex;
+   -webkit-box-align: center;
+   -ms-flex-align: center;
+   align-items: center;
+   -webkit-box-pack: center;
+   -ms-flex-pack: center;
+   justify-content: center;
+    text-transform: uppercase;
+    font-size: 10px;
+    letter-spacing: 1px;
+}
+
+#content-area .action-btns .red-hollow-btn .price{
+    font-size: 24px;
+    margin-right: 10px;
+}
+
+#content-area .action-btns .lightgrey-btn{
+    background: #F5F5F7;
+   display:inline-block;
+   padding: 35px;
+   color: #1b1b1b;
+   display:-webkit-inline-box;
+   display:-ms-inline-flexbox;
+   display:inline-flex;
+   -webkit-box-align: center;
+   -ms-flex-align: center;
+   align-items: center;
+   -webkit-box-pack: center;
+   -ms-flex-pack: center;
+   justify-content: center;
+    text-transform: uppercase;
+    font-size: 10px;
+    letter-spacing: 1px;
+    max-height: 30px;
+    position:relative;
+    top:-5px;
+    min-width: 180px;
 }
