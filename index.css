@@ -1,7 +1,23 @@
 *{
     -webkit-box-sizing:border-box;
     box-sizing:border-box;
+
+/*    overflow: hidden;*/
+    
+   
+}
+
+body{
     overflow:hidden;
+   
+    
+}
+
+.container{
+    max-width:90%;
+    margin: 0 auto;
+    
+
 }
 #header{
     padding: 40px 0;
@@ -23,6 +39,7 @@
     font-weight: 300;
     text-decoration:none;
     text-transform: uppercase;
+     color:black;
 }
 
 .menu a:hover{
@@ -32,11 +49,12 @@
 .menu a li{
     padding:10px 15px;
     display:inline-block;
+   
     
 }
 
 #content-area .insider{
-    
+    max-width: 490px;
 }
 
 #content-area .model{
@@ -44,10 +62,12 @@
     float:left;
     width:50%;
     text-align:center;
+    
 }
 
 #content-area .model img{
     max-width:500px;
+    max-height: 510px;
 }
 
 #content-area .info{
@@ -134,6 +154,7 @@
     text-transform: uppercase;
     font-size: 10px;
     letter-spacing: 1px;
+    min-width: 49%;
 }
 
 #content-area .action-btns .red-hollow-btn .price{
@@ -161,5 +182,5 @@
     max-height: 30px;
     position:relative;
     top:-5px;
-    min-width: 180px;
+    min-width: 49%;
 }
