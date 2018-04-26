@@ -1,0 +1,35 @@
+*{
+    -webkit-box-sizing:border-box;
+    box-sizing:border-box;
+}
+#header{
+    padding: 40px 0;
+}
+
+#header .logo{
+    font-weight: 700;
+    font-size:36px;
+    display:inline-block;
+}
+
+.menu {
+    display:inline-block;
+    float:right;
+}
+
+.menu a{
+    font-size: 16px;
+    font-weight: 300;
+    text-decoration:none;
+    text-transform: uppercase;
+}
+
+.menu a:hover{
+    color:red;
+}
+
+.menu a li{
+    padding:10px 15px;
+    display:inline-block;
+    
+}
