@@ -9,8 +9,19 @@
 
 body{
     overflow:hidden;
+
+    
    
     
+}
+
+.color{
+    position:absolute;
+    background:rgba(100, 100, 100, 0.51);
+    height:120vh;
+    width:100vh;
+    z-index: 400;
+   
 }
 
 .container{
@@ -24,9 +35,12 @@ body{
 }
 
 #header .logo{
+    position:relative;
     font-weight: 700;
     font-size:36px;
     display:inline-block;
+    color:#ffffff;
+    z-index:600;
 }
 
 .menu {
@@ -66,8 +80,10 @@ body{
 }
 
 #content-area .model img{
+    position:relative;
     max-width:500px;
-    max-height: 550px;
+    max-height: 570px;
+    z-index:700;
 }
 
 #content-area .info{
@@ -91,7 +107,7 @@ body{
 }
 
 #content-area .info h5{
-    background:red;
+    background: black;
     text-transform: uppercase;
     font-size: 12px;
     display:inline-block;
